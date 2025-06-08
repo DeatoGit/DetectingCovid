@@ -1,0 +1,16 @@
+# Ignorar el entorno virtual
+.venv/
+
+# Ignorar carpetas de caché de Python
+__pycache__/
+*.py[cod]
+
+# Ignorar datos pesados (si no quieres subir dataset completo)
+# dataset/
+
+# Ignorar archivos de exportación de modelos grandes (opcional)
+export.pkl
+*.pth
+
+# Ignorar archivos de configuración de VS Code (opcional)
+.vscode/
